@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px;
+    gap: 8px;
+}
+nav img{
+    width: 50px;
+    height: 50px;
+    
+}
+nav .app{
+    padding-bottom: 7px;
+
+}
+nav .profile{
+    width: 60px;
+    padding-top: 5px;
+    height: 60px;
+}
+.mainlogo{
+    text-align: center;
+    margin-top: 60px;
+}
+.mainlogo img{
+    width: 300px;
+    height: 100px;
+    
+}
+.outer{
+    display: flex;
+    justify-content: center;
+}
+.searchbar{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:0.5px solid rgb(187, 199, 210);
+    border-radius: 30px;
+    width: 700px;
+    gap: 10px;
+    
+    
+}
+.searchbar input{
+    width: 80%;
+    padding: 15px;
+    border: none;
+    color: black;
+    font-size: large;
+    margin-right: 10px;
+
+
+}
+.fa-magnifying-glass{
+    margin-left: 10px;
+}
+.fa-solid{
+    margin-right: 10px;
+}
+.searchbar input:focus{
+    outline: none;
+}
+.buttons{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.buttons button{
+    padding: 10px;
+    font-size:medium;
+    margin-left: 15px;
+    border: none;
+    background-color: #F8F9FA;
+}
+.buttons button:hover{
+    border:1pt black solid;
+}
+.lan{
+    margin-top: 20px;
+    text-align: center;
+}
+.lan a{
+    margin-right: 2px;
+}
+.footer{
+    margin-top: 180px;
+    background-color:#F2F2F2 ;
+    padding: 15px;
+    border-bottom: 1px solid rgb(221, 201, 201);
+   padding-left:35px;
+}
+.flexfooter{
+    display: flex;
+    background-color:#F2F2F2 ;
+    justify-content:space-between;
+    padding: 15px;
+}
+.div1 a,.div2 a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    
+}
+.div2 a:hover{
+    border-bottom: 1px solid black;
+}
+.div1 a:hover{border-bottom: 1px solid black;
+}
+nav p a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+nav p:hover{
+    border-bottom: 1px black solid;
+}

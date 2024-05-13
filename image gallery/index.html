@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .outerbox{
+           background-color: pink;
+           padding: 80px;
+           border: blue 5px solid;
+           text-align: center;
+           font-family: sans-serif;
+        }
+        hr{
+            border: 3px solid gray;
+            width: 600px;
+            margin-bottom: 30px;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            background-color: pink;
+        }
+        .container .items{
+            flex-basis: 20%;
+            
+        }
+        .items img {
+            border: 2px solid black;
+            width: 250px;
+            height: 380px;
+        }
+    </style>
+</head>
+<body>
+   <div class="outerbox">
+    <h1>Image Gallery</h1><hr>
+    <div class="container">
+        <div class="items">
+            <img src="https://picsum.photos/id/237/200/300" alt="">
+        </div>
+        <div class="items">
+            <img src="https://picsum.photos/200/300" alt="">
+        </div>
+        <div class="items">
+            <img src="https://picsum.photos/seed/picsum/200/300" alt="">
+        </div>
+        <div class="items">
+            <img src="https://picsum.photos/200/300?grayscale" alt="">
+        </div>
+        <div class="items">
+            <img src="https://picsum.photos/200/300/?blur=2" alt="">
+        </div>
+        <div class="items">
+            <img src="https://api.lorem.space/image/album?w=150&h=150" alt="">
+        </div>
+        <div class="items">
+            <img src="https://api.lorem.space/image/book?w=150&h=150" alt="">
+        </div>
+        <div class="items">
+            <img src="https://picsum.photos/200" alt="">
+        </div>
+        
+    </div>
+   </div>
+</body>
+</html>

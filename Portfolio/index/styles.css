@@ -1,0 +1,87 @@
+body{
+    background-color: blanchedalmond;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  color: white;
+  background-color: black;
+  margin: 30px;
+  padding: 20px;
+}
+.header__name {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  margin: 15px;
+}
+.header__Role {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 30px;
+}
+.header__home {
+   background-color: orangered;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+  border: 0px black solid;
+}
+.form{
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    margin: 30px;
+}
+.footer{
+    color: white;
+  background-color: black;
+  margin:  5px;
+  padding: 20px;
+  
+
+}
+.Text{
+    text-decoration: none;
+    border-width: 0px;
+    background-color: blanchedalmond;
+    border-bottom: 1px grey solid;
+    padding: 3px;
+    margin: 5px;
+}
+.Text:focus{
+    padding: 15px;
+}
+.Email:focus{
+    padding: 15px
+}
+.Email{text-decoration: none;
+    border-width: 0px;
+    background-color: blanchedalmond;
+    border-bottom: 1px grey solid;
+    padding: 3px;
+    margin: 5px;}
+.Message{
+    text-decoration: none;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: 5px;
+}
+.submit__button{
+    background-color: orangered;
+    color: black;
+    padding: 10px;
+    border-width: 0px;
+    margin: 5px;
+}
+.link{
+  text-decoration-color: aqua;
+  color: rgb(126, 199, 199);
+  text-decoration: none;
+}
